@@ -61,6 +61,11 @@ nav a {
   color: #111;
 }
 
+nav a[aria-current="page"] {
+  border-bottom: 2px solid #caa85a;
+  color: #7a6030;
+}
+
 /* セクション */
 section {
   padding: 140px 20px;
